@@ -1,0 +1,131 @@
+.myContainer {
+  background-color: #121212;
+}
+.wholeBox {
+  padding: 25px;
+  box-shadow: 1px 0 20px 0px #e53b64;
+  width: 70%;
+  overflow: hidden;
+}
+.wholeBox h1 {
+  color: #fff;
+  font-weight: bolder;
+  letter-spacing: 2px;
+}
+.inputBox {
+  width: 40%;
+  position: relative;
+  z-index: 10000000;
+}
+
+.inputBox p a {
+  color: #e53b64;
+}
+.passBoxInput {
+  position: relative;
+  padding: 10px 0;
+  margin-top: 15px;
+}
+.passBoxInput label {
+  position: absolute;
+  top: 10px;
+  left: 0;
+  width: 100%;
+  cursor: text;
+  transition: 0.3s all;
+}
+
+.userBoxInput {
+  position: relative;
+  padding: 10px 0;
+  margin-top: 15px;
+}
+.userBoxInput label {
+  position: absolute;
+  top: 10px;
+  left: 0;
+  width: 100%;
+  cursor: text;
+  transition: 0.3s all;
+}
+
+.mailBoxInput {
+  position: relative;
+  padding: 10px 0;
+  margin-bottom: 20px;
+}
+
+.mailBoxInput label {
+  position: absolute;
+  top: 10px;
+  left: 0;
+  width: 100%;
+  cursor: text;
+  transition: 0.3s all;
+}
+.inputBox input {
+  border: none;
+  outline: none;
+  background-color: transparent;
+  border-bottom: 1px solid #fff;
+  width: 100%;
+  color: #fff;
+}
+.registerAnchor , .LoginAnchor ,.welcomeMsg button{
+  border: none;
+  padding: 5px 30px;
+  width: 100%;
+  border-radius: 8px;
+  background-color: #e53b64;
+  color: #fff;
+  transition: 0.7s all;
+  box-shadow: 0px -54px 0px 0px #959595 inset;
+  text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+}
+.wholeBox .registerAnchor:hover , .wholeBox .LoginAnchor:hover ,.welcomeMsg button:hover{
+  box-shadow: 0px 0px 0px 0px #959595 inset;
+}
+.wholeBox p {
+  font-weight: 500;
+}
+
+.boxContent {
+  width: 25%;
+  text-align: right;
+  z-index: 999;
+}
+.boxContent h2 {
+  font-weight: 900;
+  font-family: revert;
+}
+.boxContent p {
+  font-size: 15px;
+  font-weight: 400;
+}
+
+.coloredpart {
+  width: 700px;
+  height: 700px;
+  right: -372px;
+  top: -230px;
+  background-color: #e53b64;
+  transform: rotate(-19deg);
+  z-index: 0;
+}
+
+/* ================================================ */
+.userBoxInput {
+  position: relative;
+  padding: 10px 0;
+  margin-bottom: 20px;
+}
+
+.userBoxInput label {
+  position: absolute;
+  top: 10px;
+  left: 0;
+  width: 100%;
+  cursor: text;
+}

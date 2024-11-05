@@ -1,0 +1,40 @@
+@media screen and (min-width: 0px) and (max-width:920px) {
+.wholeBox {
+    padding: 25px;
+    box-shadow: 1px 0 20px 0px #e53b64;
+    width: 70%;
+    overflow: hidden;
+    flex-direction: column;
+}
+
+
+    .coloredpart {
+    width: 0;
+    height: 0;
+    right: -144px;
+    bottom: -829px;
+    background-color: #e53b64;
+    transform: rotate(0deg);
+    z-index: 0;
+}
+
+.boxContent {
+    width: 25%;
+    text-align: right;
+    z-index: 999;
+    width: 100%;
+    text-align: center;
+            padding: 25px 0;
+            background-color: #e53b64;
+}
+
+.inputBox {
+    width: 40%;
+    position: relative;
+    z-index: 10000000;
+    width: 80%;
+}
+
+    
+    
+}

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/externals/all.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/media.css">
+</head>
+<body>
+    
+
+
+    <div class="myContainer   vh-100 d-flex justify-content-center align-items-center">
+
+         <div class="wholeBox position-relative  text-white d-flex justify-content-between align-items-center"> 
+            <div class="inputBox d-flex flex-column ">
+                <h1 class="mb-5">Login</h1>
+
+                <div  class="mailBoxInput ">
+                    <input id="email" class="" type="email">
+                    <label class="d-flex justify-content-between align-items-center" for="email"><span>Email</span><i class="fa-solid fa-envelope"></i></label>
+                </div>
+                <div class="passBoxInput ">
+                    <input id="password" class="" type="password">
+                    <label class="  d-flex justify-content-between align-items-center" for="password"><span>Password</span><i class="fa-solid fa-lock"></i> </label>
+                </div>
+                <p class="successMsg d-none  p-2 text-center border border-success text-white bg-success ">success</p>
+                <p class="erorrMsg d-none  p-2 text-center border border-danger text-white bg-danger ">Account not exist</p>
+                <a onclick="login()" class="mt-3 LoginAnchor">Login</a>
+                <p class="mt-3">Don't have an account? <a href="./register.html">Sign up</a></p>
+
+            </div>
+            <div class="boxContent text-white position-relative ">
+                <h2>Welcom <br> Back</h2>
+                <p>Lorem ipsum dolor sit amet adipisicing elit. Laboriosam esse itaque voluptates dolorum ipsum .</p>
+            </div>
+
+            <div class="coloredpart position-absolute">
+
+            </div>
+        </div> 
+
+
+
+
+
+
+    </div>
+
+
+
+
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./js/main.js"></script>
+    <script src="./js/login.js"></script>
+</body>
+</html>
